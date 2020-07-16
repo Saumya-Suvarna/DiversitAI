@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 
 # Let's load a simple image with 3 black squares 
-image = cv2.imread('/home/arpit/Desktop/IOTIOT/flower.jpg') 
+image = cv2.imread('Path_of_image') 
 cv2.waitKey(0) 
 
 # Grayscale 
