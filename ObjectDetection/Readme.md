@@ -1,23 +1,11 @@
 ## Aim
-This ObjectDetection module is for making object detection easy by providing area with maximum information.
+This DiversItAi Library is for making object detection easy by providing area with maximum information.
 
-### Tasks to be performed
-1. * [ ]  Creating OpenCV module for detecting Area of Interest.
-2. * [ ]  Creating Tensorflow module for detecting Area of Interest.
-3. * [ ]  Comparing both.
+### How to use
+
+1. Clone this repository
+2. Install requirments using : `pip install -r requirements.txt`
+3. Library contains 2 functions for now, import them and feed the path of image.
+4. See this [Notebook]() to get better idea of using the library.
 
 
-**Task 1 :** Creating OpenCV module for detecting Area of Interest.
-
-OpenCV_Highlighting is program to Highlights the area with maximum information. It initially does this by color intensity.
-
-*Example :*
-
-![image](result.png)
-
-**Improvements to be done :**
-1. Only one object is identified:
-![image](flower_result.png)
-
-2. Include edge detection, as some part of object also not recognised:
-![image](result1.png)
